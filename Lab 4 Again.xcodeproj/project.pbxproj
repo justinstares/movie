@@ -12,6 +12,19 @@
 		F7AFD418217801A1008CD7E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AFD416217801A1008CD7E7 /* Main.storyboard */; };
 		F7AFD41A217801A2008CD7E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AFD419217801A2008CD7E7 /* Assets.xcassets */; };
 		F7AFD41D217801A2008CD7E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AFD41B217801A2008CD7E7 /* LaunchScreen.storyboard */; };
+		F7AFD425217804A7008CD7E7 /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD424217804A7008CD7E7 /* DetailedViewController.swift */; };
+		F7AFD4272178083F008CD7E7 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD4262178083F008CD7E7 /* Info.swift */; };
+		F7AFD429217952AC008CD7E7 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD428217952AC008CD7E7 /* CustomCell.swift */; };
+		F7AFD42B217976A2008CD7E7 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD42A217976A1008CD7E7 /* FavoritesViewController.swift */; };
+		F7AFD42F21798428008CD7E7 /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F7AFD42E21798428008CD7E7 /* noimage.png */; };
+		F7AFD43121798E50008CD7E7 /* movies.db in Resources */ = {isa = PBXBuildFile; fileRef = F7AFD43021798E50008CD7E7 /* movies.db */; };
+		F7AFD44021798F38008CD7E7 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD43321798F37008CD7E7 /* FMDatabaseAdditions.m */; };
+		F7AFD44121798F38008CD7E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7AFD43421798F37008CD7E7 /* GoogleService-Info.plist */; };
+		F7AFD44221798F38008CD7E7 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD43621798F37008CD7E7 /* FMDatabase.m */; };
+		F7AFD44321798F38008CD7E7 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD43721798F37008CD7E7 /* FMDatabaseQueue.m */; };
+		F7AFD44421798F38008CD7E7 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD43B21798F38008CD7E7 /* FMResultSet.m */; };
+		F7AFD44521798F38008CD7E7 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AFD43E21798F38008CD7E7 /* FMDatabasePool.m */; };
+		F7AFD44821798FA5008CD7E7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AFD44721798FA5008CD7E7 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +35,26 @@
 		F7AFD419217801A2008CD7E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7AFD41C217801A2008CD7E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7AFD41E217801A2008CD7E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AFD424217804A7008CD7E7 /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		F7AFD4262178083F008CD7E7 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		F7AFD428217952AC008CD7E7 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F7AFD42A217976A1008CD7E7 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F7AFD42E21798428008CD7E7 /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noimage.png; path = ../../../noimage.png; sourceTree = "<group>"; };
+		F7AFD43021798E50008CD7E7 /* movies.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = movies.db; path = ../../../movies.db; sourceTree = "<group>"; };
+		F7AFD43221798F36008CD7E7 /* Lab 4 Again-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab 4 Again-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7AFD43321798F37008CD7E7 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ../../StorageDemo/StorageDemo/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F7AFD43421798F37008CD7E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../StorageDemo/StorageDemo/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7AFD43521798F37008CD7E7 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ../../StorageDemo/StorageDemo/FMDatabase.h; sourceTree = "<group>"; };
+		F7AFD43621798F37008CD7E7 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ../../StorageDemo/StorageDemo/FMDatabase.m; sourceTree = "<group>"; };
+		F7AFD43721798F37008CD7E7 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = ../../StorageDemo/StorageDemo/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F7AFD43821798F37008CD7E7 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = ../../StorageDemo/StorageDemo/FMDatabasePool.h; sourceTree = "<group>"; };
+		F7AFD43921798F37008CD7E7 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = ../../StorageDemo/StorageDemo/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F7AFD43A21798F38008CD7E7 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ../../StorageDemo/StorageDemo/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F7AFD43B21798F38008CD7E7 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ../../StorageDemo/StorageDemo/FMResultSet.m; sourceTree = "<group>"; };
+		F7AFD43C21798F38008CD7E7 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = ../../StorageDemo/StorageDemo/FMDB.h; sourceTree = "<group>"; };
+		F7AFD43E21798F38008CD7E7 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = ../../StorageDemo/StorageDemo/FMDatabasePool.m; sourceTree = "<group>"; };
+		F7AFD43F21798F38008CD7E7 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ../../StorageDemo/StorageDemo/FMResultSet.h; sourceTree = "<group>"; };
+		F7AFD44721798FA5008CD7E7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AFD44821798FA5008CD7E7 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +74,7 @@
 			children = (
 				F7AFD411217801A1008CD7E7 /* Lab 4 Again */,
 				F7AFD410217801A1008CD7E7 /* Products */,
+				F7AFD44621798FA5008CD7E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +91,39 @@
 			children = (
 				F7AFD412217801A1008CD7E7 /* AppDelegate.swift */,
 				F7AFD414217801A1008CD7E7 /* ViewController.swift */,
+				F7AFD428217952AC008CD7E7 /* CustomCell.swift */,
+				F7AFD4262178083F008CD7E7 /* Info.swift */,
 				F7AFD416217801A1008CD7E7 /* Main.storyboard */,
+				F7AFD42A217976A1008CD7E7 /* FavoritesViewController.swift */,
+				F7AFD424217804A7008CD7E7 /* DetailedViewController.swift */,
 				F7AFD419217801A2008CD7E7 /* Assets.xcassets */,
+				F7AFD42E21798428008CD7E7 /* noimage.png */,
 				F7AFD41B217801A2008CD7E7 /* LaunchScreen.storyboard */,
 				F7AFD41E217801A2008CD7E7 /* Info.plist */,
+				F7AFD43021798E50008CD7E7 /* movies.db */,
+				F7AFD43521798F37008CD7E7 /* FMDatabase.h */,
+				F7AFD43621798F37008CD7E7 /* FMDatabase.m */,
+				F7AFD43A21798F38008CD7E7 /* FMDatabaseAdditions.h */,
+				F7AFD43321798F37008CD7E7 /* FMDatabaseAdditions.m */,
+				F7AFD43821798F37008CD7E7 /* FMDatabasePool.h */,
+				F7AFD43E21798F38008CD7E7 /* FMDatabasePool.m */,
+				F7AFD43921798F37008CD7E7 /* FMDatabaseQueue.h */,
+				F7AFD43721798F37008CD7E7 /* FMDatabaseQueue.m */,
+				F7AFD43C21798F38008CD7E7 /* FMDB.h */,
+				F7AFD43F21798F38008CD7E7 /* FMResultSet.h */,
+				F7AFD43B21798F38008CD7E7 /* FMResultSet.m */,
+				F7AFD43421798F37008CD7E7 /* GoogleService-Info.plist */,
+				F7AFD43221798F36008CD7E7 /* Lab 4 Again-Bridging-Header.h */,
 			);
 			path = "Lab 4 Again";
+			sourceTree = "<group>";
+		};
+		F7AFD44621798FA5008CD7E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AFD44721798FA5008CD7E7 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +158,7 @@
 				TargetAttributes = {
 					F7AFD40E217801A1008CD7E7 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -122,9 +185,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AFD43121798E50008CD7E7 /* movies.db in Resources */,
 				F7AFD41D217801A2008CD7E7 /* LaunchScreen.storyboard in Resources */,
 				F7AFD41A217801A2008CD7E7 /* Assets.xcassets in Resources */,
+				F7AFD42F21798428008CD7E7 /* noimage.png in Resources */,
 				F7AFD418217801A1008CD7E7 /* Main.storyboard in Resources */,
+				F7AFD44121798F38008CD7E7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +202,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7AFD415217801A1008CD7E7 /* ViewController.swift in Sources */,
+				F7AFD4272178083F008CD7E7 /* Info.swift in Sources */,
+				F7AFD429217952AC008CD7E7 /* CustomCell.swift in Sources */,
 				F7AFD413217801A1008CD7E7 /* AppDelegate.swift in Sources */,
+				F7AFD44421798F38008CD7E7 /* FMResultSet.m in Sources */,
+				F7AFD44521798F38008CD7E7 /* FMDatabasePool.m in Sources */,
+				F7AFD42B217976A2008CD7E7 /* FavoritesViewController.swift in Sources */,
+				F7AFD44021798F38008CD7E7 /* FMDatabaseAdditions.m in Sources */,
+				F7AFD425217804A7008CD7E7 /* DetailedViewController.swift in Sources */,
+				F7AFD44221798F38008CD7E7 /* FMDatabase.m in Sources */,
+				F7AFD44321798F38008CD7E7 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Lab 4 Again/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,6 +364,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "JS.Lab-4-Again";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab 4 Again/Lab 4 Again-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Lab 4 Again/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +384,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "JS.Lab-4-Again";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lab 4 Again/Lab 4 Again-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
